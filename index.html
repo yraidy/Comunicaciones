@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<script src="scrip.js"></script>
 <div class="navbar">
 
 
@@ -23,23 +23,100 @@
     <img src="hola.png" alt="hola.png"> 
 </div>
 
+
 <div class="container">
     <form action="/action_page.php">
-      <label for="fname">Pregunta 1</label>
-      <input type="text" id="fname" name="firstname" placeholder="Tu respuesta..">
-  
-      <label for="lname">Pregunta 2</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu respuesta..">
-  
-      <label for="lname">Pregunta 3</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu respuesta..">
-  
-      <label for="lname">Pregunta 4</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu respuesta..">
-  
-      <label for="lname">Pregunta 5</label>
-      <input type="text" id="lname" name="lastname" placeholder="Tu respuesta..">
-  
+      <h2>Formulario</h2>
+      <label for="age">¿En qué rango de edad te encuentras?</label>
+      <select id="age" name="age">
+        <option value="under18">Menos de 18 años</option>
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-44">35-44</option>
+        <option value="45-54">45-54</option>
+        <option value="55-64">55-64</option>
+        <option value="65plus">65 o más</option>
+      </select>
+      <label for="age">
+        <label for="state">¿En qué Estado de EE.UU vives actualmente?</label>
+  <input type="text" id="state" name="state">
+  <br>
+
+  <label for="education">Nivel educativo alcanzado</label>
+  <select id="education" name="education">
+    <option value="less_than_high_school">Menos de secundaria</option>
+    <option value="high_school">Secundaria completa</option>
+    <option value="some_college">Estudios universitarios incompletos</option>
+    <option value="college_degree">Título universitario</option>
+    <option value="post_graduate">Posgrado</option>
+  </select>
+  <br>
+
+  <label for="marital_status">Estado civil actual</label>
+  <select id="marital_status" name="marital_status">
+    <option value="single">Soltero/a</option>
+    <option value="married">Casado/a</option>
+    <option value="widowed">Viudo/a</option>
+    <option value="divorced">Divorciado/a</option>
+    <option value="in_a_relationship">En una relación</option>
+  </select>
+
+    <label for="marital_status">¿Tienes conocimientos sobre educación financiera?</label>
+    <select id="marital_status" name="marital_status">
+        <option value="single">Sí</option>
+        <option value="married">No</option>
+        <option value="widowed">Un poco</option>
+    </select>
+
+    <label for="marital_status">¿Cómo es tu situación financiera actualmente?</label>
+    <select id="marital_status" name="marital_status">
+        <option value="single">Buena</option>
+        <option value="married">Mala</option>
+        <option value="widowed">Regular</option>
+    </select>
+
+    <label for="marital_status">¿Has solicitado préstamo en alguna organización?</label>
+    <select id="marital_status" name="marital_status">
+        <option value="single">Sí</option>
+        <option value="married">No</option>
+        <option value="widowed">No lo habia pensado</option>
+    </select>
+
+    <label for="marital_status">¿Alguna vez algún banco te ha negado un préstamo?</label>
+    <select id="marital_status" name="marital_status">
+        <option value="single">Sí</option>
+        <option value="married">No</option>
+        <option value="widowed">Nunca he solicitado prestamos</option>
+    </select>
+
+    <label for="marital_status">¿Cómo describirías tu historial crediticio?</label>
+    <select id="marital_status" name="marital_status">
+        <option value="single">Excelente</option>
+        <option value="married">Bueno</option>
+        <option value="widowed">Necesira mejorar</option>
+        <option value="widowed">No tengo historial crediticio</option>
+    </select>
+
+    <label for="age">
+        <label for="state">¿Cuál es tu fuente principal de ingresos?</label>
+  <input type="text" id="state" name="state">
+
+  <label for="marital_status">Situación laboral</label>
+  <select id="marital_status" name="marital_status">
+      <option value="single">Estable</option>
+      <option value="married">Inestable</option>
+      <option value="widowed">Desempleado</option>
+  </select>
+  <label for="marital_status">¿Cual es tu nivel de ingresos anuales?</label>
+  <select id="marital_status" name="marital_status">
+      <option value="single">Menos de $5,000</option>
+      <option value="married">$10,000 - $30,000</option>
+      <option value="widowed">$30,000- $50,000</option>
+      <option value="widowed">$50,000- $75,000</option>
+      <option value="widowed">$75,000 o más</option>
+      <option value="widowed">No tengo ingresos. Estoy tratando de mejorar eso</option>
+  </select>
+    <br>
       <input type="submit" value="Enviar">
     </form>
   </div>
